@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">SMART LOGIN</a>
+        <a class="btn btn-outline-warning ms-auto" href="./index.html">Logout</a>
+      </div>
+    </nav>
+    <div class="container he">
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-9">
+          <div class="box text-white text-center">
+            <p id="welcome"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var outputname = localStorage.getItem('fixedname');
+      var welcome = document.getElementById('welcome');
+      welcome.innerHTML = "Welcome, " + (outputname || "User") + "!";
+    </script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

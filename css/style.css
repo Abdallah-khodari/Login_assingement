@@ -1,0 +1,45 @@
+body{
+    background-color: #24353F;
+      font-family: "Titillium Web", sans-serif;
+}
+a{
+    color: white;
+ 
+}
+h1{
+    color:rgb(23, 162, 184);
+
+}
+.col-md-9{
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+input{
+    background-color: #24353F !important;
+}
+::placeholder{
+    color: white !important;
+    opacity: 0.7 !important;
+}
+form{
+    width: 80%;
+}
+.btn:hover{
+    background-color: #17A2B8;
+}
+input{
+    color: white !important;
+}
+.he{
+    height: 100vh;
+}
+.box{
+    background-color: #24353F;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+padding: 20px;
+color: #17A2B8 !important;
+}
+#welcome{
+    font-size: 30px;
+}
